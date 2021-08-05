@@ -1,0 +1,40 @@
+body {
+    display:flex;
+    flex-direction: column;
+    background-color: indigo;
+}
+
+.input__info {
+    margin:20px auto;
+}
+.title{
+    display: inline-block;
+    margin: 5px 0;
+    width: 90px;
+    color: #fff;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.data__element {
+    width: 23%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(94, 235, 245);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element__action {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit {
+    margin-bottom: 5px;
+}
